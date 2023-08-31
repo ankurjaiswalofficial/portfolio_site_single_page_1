@@ -71,9 +71,6 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 1.5rem;
-        .ui_box_2{
-
-        }
         .simple_box {
             padding: 0.8rem;
             border-radius: var(--standard-length);
@@ -161,6 +158,9 @@ body {
                 }
             }
         }
+    }
+    .ui_box:hover{
+        transform: scale(1.1) translateY(-0.2rem);
     }
     .ui_box_modified {
         .box_header {
@@ -462,6 +462,7 @@ body {
                         align-items: center;
                         .input_set_1 {
                             flex-direction: column;
+                            gap: 1.2rem;
                             width: 100%;
                         }
                     }
@@ -535,6 +536,16 @@ body {
                     .typo_box{
                         .box_header{
                             font-size: 1.8rem;
+                        }
+                    }
+                    section{
+                        .contact_form{
+                            padding: 0;
+                            .input_set{
+                                textarea, input {
+                                    padding: 0.7rem;
+                                }
+                            }
                         }
                     }
                 }

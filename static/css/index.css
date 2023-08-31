@@ -162,6 +162,9 @@ body .ui_box .box_links .ui_button svg {
   width: 30px;
   height: 30px;
 }
+body .ui_box:hover {
+  transform: scale(1.1) translateY(-0.2rem);
+}
 body .ui_box_modified .box_header {
   width: 100%;
   color: var(--fading-black-color);
@@ -446,6 +449,7 @@ body footer {
   }
   body main .container .content_box section .input_set_1 {
     flex-direction: column;
+    gap: 1.2rem;
     width: 100%;
   }
 }
@@ -499,5 +503,11 @@ body footer {
   }
   body main .container .content_box .typo_box .box_header {
     font-size: 1.8rem;
+  }
+  body main .container .content_box section .contact_form {
+    padding: 0;
+  }
+  body main .container .content_box section .contact_form .input_set textarea, body main .container .content_box section .contact_form .input_set input {
+    padding: 0.7rem;
   }
 }/*# sourceMappingURL=index.css.map */
