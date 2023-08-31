@@ -74,6 +74,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 1.5rem;
+        border: var(--separation-border);
         .box_linker {
             position: absolute;
             top: 0;
