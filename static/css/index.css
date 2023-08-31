@@ -511,6 +511,7 @@ body footer {
     margin-top: 4rem;
     z-index: 100;
     background-color: var(--body-bg);
+    border-bottom: var(--separation-border);
   }
   body header .navigation ul {
     margin-top: 1rem;
