@@ -66,11 +66,26 @@
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="feather feather-menu"
+                        class="nav_menu"
                     >
                         <line x1="3" y1="12" x2="21" y2="12"></line>
                         <line x1="3" y1="6" x2="21" y2="6"></line>
                         <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="close_nav deactive_icon"
+                    >
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
                 </div>
             </div>
@@ -78,7 +93,7 @@
         <main>
             <div class="container">
                 <!-- I am -->
-                <div class="content_box">
+                <div class="content_box" id="about">
                     <section class="">
                         <div class="ui_box">
                             <img
@@ -109,12 +124,10 @@
                                     </svg>
                                 </div>
                             </div>
-                            <div class="box_header">
-                                Hi, I'm
-                            </div>
+                            <div class="box_header">Hi, I'm</div>
                             <span class="ui_box box_header color_it"
-                                    >Ankur Jaiswal</span
-                                >
+                                >Ankur Jaiswal</span
+                            >
                             <div class="box_description">
                                 Web designer and developer based in Gr. Noida.
                             </div>
@@ -262,7 +275,7 @@
                     </section>
                 </div>
                 <!-- My experience -->
-                <div class="content_box">
+                <div class="content_box" id="experience">
                     <p class="content_box_description">
                         Over 3 Years Of Experience
                     </p>
@@ -337,7 +350,7 @@
                     </section>
                 </div>
                 <!-- My education -->
-                <div class="content_box">
+                <div class="content_box" id="education">
                     <p class="content_box_description">
                         INTERMEDIATE AND BACHELORS
                     </p>
@@ -394,7 +407,7 @@
                     </section>
                 </div>
                 <!-- My portfolio -->
-                <div class="content_box">
+                <div class="content_box" id="portfolio">
                     <p class="content_box_description">
                         VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
                     </p>
@@ -422,7 +435,7 @@
                     </section>
                 </div>
                 <!-- My blogs -->
-                <div class="content_box">
+                <div class="content_box" id="blogs">
                     <p class="content_box_description">
                         VISIT MY BLOG AND KEEP YOUR FEEDBACK
                     </p>
@@ -485,12 +498,12 @@
                     </section>
                 </div>
                 <!-- Contact me box -->
-                <div class="content_box">
+                <div class="content_box" id="contact_me">
                     <p class="content_box_description">Contact</p>
                     <h1 class="content_box_header">Contact With Me</h1>
                     <section class="">
-                        <div class="ui_box">
-                            <div class="box_img">
+                        <div class="ui_box ui_box_modified">
+                            <div class="box_img contact_bg_img">
                                 <img src="static/images/user_pic.png" alt="" />
                             </div>
                             <div class="typo_box">
@@ -498,14 +511,14 @@
                                 <div class="box_para">Frontend Developer</div>
                                 <div class="box_description">
                                     Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Neque dolores laboriosam ut.
+                                    adipisicing elit. Neque dolores laboriosam
+                                    ut.
                                 </div>
                                 <div class="box_para">Phone: +918766369991</div>
                                 <div class="box_para">
                                     Email: ankurjaiswalofficial@gmail.com
                                 </div>
                                 <div class="box_description">FIND WITH ME</div>
-
                             </div>
                             <div class="box_links">
                                 <a
@@ -640,4 +653,5 @@
             &copy; 2023. All rights reserved by CodemyCoder-Ankur Jaiswal
         </footer>
     </body>
+    <script src="static/js/index.js"></script>
 </html>
