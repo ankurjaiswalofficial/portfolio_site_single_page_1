@@ -547,6 +547,9 @@ body footer {
   body header {
     height: 60px;
   }
+  body header .navigation {
+    margin-top: 2.8rem;
+  }
   body header .branding svg {
     width: 80px;
     height: 40px;

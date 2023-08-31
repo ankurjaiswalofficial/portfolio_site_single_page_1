@@ -586,6 +586,9 @@ body {
         }
         header {
             height: 60px;
+            .navigation{
+                margin-top: 2.8rem;
+            }
             .branding {
                 svg {
                     width: 80px;
